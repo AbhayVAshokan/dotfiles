@@ -27,3 +27,6 @@ opencode/
 # pgcli
 pgcli/history
 pgcli/log
+
+# Environment variables
+zsh/env.zsh
