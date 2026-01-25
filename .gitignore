@@ -1,0 +1,29 @@
+# zsh plugin binaries
+.zcomet/
+
+# Other binaries and config folders
+
+# Gemini
+configstore/ 
+
+# Google Cloud
+gcloud
+
+# GitLab
+glab-cli
+
+# Gimp
+gdk-3.0
+
+# lnav
+lnav/
+
+# 1Password
+op/
+
+# OpenCode
+opencode/
+
+# pgcli
+pgcli/history
+pgcli/log
