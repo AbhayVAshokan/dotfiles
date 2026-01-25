@@ -1,0 +1,3 @@
+[submodule "abhay-nvim"]
+	path = nvim
+	url = https://gitlab.com/abhayvashokan/abhay-nvim.git
