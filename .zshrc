@@ -1,3 +1,5 @@
+# This file is symlinked to ~/.zshrc
+
 # Source all config files in the ~/.config/zsh folder
 for config in ~/.config/zsh/*.zsh; do
   [ -r "$config" ] && source "$config"

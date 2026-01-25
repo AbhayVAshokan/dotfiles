@@ -1,3 +1,5 @@
+# This file is symlinked to ~/.pryrc
+
 DEFAULT_PASSWORD="withgreatpowercomesgreatresponsibility"
 
 def root
