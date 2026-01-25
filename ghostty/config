@@ -1,0 +1,38 @@
+# appearance
+font-size = 15
+font-thicken = true
+theme = GitHub Dark
+background = #000000
+background-opacity = 0.90
+background-blur-radius = 40
+cursor-style = block
+cursor-style-blink = false
+cursor-invert-fg-bg = true
+mouse-hide-while-typing = true
+
+# macOS-specific settings
+macos-titlebar-style = hidden
+# macos-titlebar-style = tabs
+macos-option-as-alt = true
+macos-icon = xray
+
+# window controls
+confirm-close-surface = true
+window-theme = system
+window-decoration = true
+window-padding-x = 8
+window-padding-y = 4
+window-padding-balance = true
+window-save-state = always
+
+# clipboard
+clipboard-read = allow
+clipboard-write = allow
+
+# auto update settings
+auto-update = download
+auto-update-channel = stable
+
+# extras
+shell-integration-features = true
+link-url = true
