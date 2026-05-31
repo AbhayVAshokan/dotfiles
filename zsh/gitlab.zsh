@@ -42,3 +42,5 @@ reset_cdot() {
     rails runner "Admin.update! password: 'withgreatpowercomesgreatresponsibility';"
 
 }
+
+alias initdb="mise exec postgres -- pg_ctl initdb -D ./db/postgresql; mise exec postgres -- pg_ctl start -D ./db/postgresql;"

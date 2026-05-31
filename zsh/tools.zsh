@@ -8,6 +8,15 @@ eval "$(mise activate zsh)"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# bun completions
+[ -s "/Users/abhayvashokan/.bun/_bun" ] && source "/Users/abhayvashokan/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# claude code
+export PATH="$HOME/.local/bin:$PATH"
 # NOTE:
 #
 # postgresql via mise

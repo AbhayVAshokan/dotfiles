@@ -13,13 +13,14 @@ alias gc="git add .; git commit -m"
 
 # rails
 alias setup="./bin/setup"
+alias rails="bundle exec rails"
 
 # GitLab
 alias gitlabstg="tsh ssh rails-ro@console-ro-01-sv-gstg"
 alias cdotstg="tsh ssh cdot-rails@customers-01-inf-stgsub"
 
 # overmind
-alias server="op run --env-file='.env' -- overmind start -f Procfile &"
+# Note: server is now a function in utils.zsh for better tmux compatibility
 alias ok="overmind kill"
 alias ok!="rm ./.overmind.sock"
 
@@ -30,7 +31,7 @@ alias ggdk="cd ~/gdk"
 alias handbook="cd ~/Documents/work/handbook"
 alias omnibus="cd ~/Documents/work/omnibus-gitlab/"
 alias gitlabcom="cd ~/Documents/work/www-gitlab-com/"
-alias zsim="cd ~/Documents/work/zsim/"
+alias zsim="cd ~/Documents/work/zsim/; ./bin/zsim;"
 alias zdot="cd ~/Documents/work/zdot/"
 
 alias lg="lazygit"
